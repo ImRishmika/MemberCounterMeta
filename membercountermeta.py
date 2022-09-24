@@ -19,7 +19,7 @@ MemberCounterMeta = Client(
 )
 CHANNEL_OR_GROUP_LIST = [i.strip() for i in os.environ.get("-1001742371821").split(' ')]
 CHANNEL_OR_GROUP_ID = int(os.environ["-1001742371821"])
-MESSAGE_ID = int(os.environ["-1001742371821"])
+MESSAGE_ID = int(os.environ["10"])
 
 print(text_1)
 async def main_MemberCounterMeta():
